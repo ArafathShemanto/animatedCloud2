@@ -1,0 +1,86 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .main-feature p {
+        font-size: 15px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-wrap h1 {
+    font-size: 30px;
+    }
+    .features-area-one::before,.features-area-two::before {
+        height: 320px;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    .featuires-info {
+        padding-top: 350px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-area {
+        height: 400px;
+        overflow: hidden;
+    }
+    .header-wrap {
+        margin-top: 68px;
+        margin-bottom: 60px;
+    }
+    .header-wrap h1 {
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    .countdown-wrap span {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 0 10px;
+        }
+        .countdown-item span{
+        font-size: 14px;
+        line-height: 28px;
+        
+        }
+        .features-area-one::before,.features-area-two::before {
+            height: 220px;
+            width: 100%;
+            left: 0;
+            top: 0;
+        }
+        .featuires-info {
+            padding-top: 250px;
+        }
+        .featuires-info h2 {
+            font-size: 30px;
+            line-height: 35px;
+            margin-bottom: 20px;
+        }
+        .cloud-1,.cloud-2,.cloud-3,.cloud-4{
+            margin-bottom: 5px;
+        }
+        .features-area-two {
+            margin-top: 30px;
+        }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

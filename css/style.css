@@ -1,0 +1,395 @@
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+.fix {
+	overflow: hidden
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+a,
+button {
+	color: #fff;
+	outline: medium none;
+}
+p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #7e7e7e;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-webkit-input-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::-ms-input-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+
+/* THEME-CSS-HERE */
+
+/* HEADER CSS HERE */
+.header-area {
+	height: 1000px;
+	position: relative;
+	z-index: 9;
+}
+.header-bg{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#D5E2FF), to(#FFFFFF));
+	background-image: -webkit-linear-gradient(top, #D5E2FF 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(top, #D5E2FF 0%, #FFFFFF 100%);
+	background-image: linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+}
+.hill-img img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	bottom: 0;
+}
+.header-wrap {
+	margin-top: 135px;
+	margin-bottom: 60px;
+}
+.header-wrap h1 {
+	font-family: Helvetica;
+	font-size: 48px;
+	color: #121C25;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 70px;
+	margin-bottom: 120px;
+}
+.z-index{
+	position: relative;
+	z-index: 999999;
+}
+
+/*=======================
+/*    cloud css          
+========================= */
+.cloud-bg-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	padding-top: 60px;
+	-webkit-animation-name:  animatedcloud ;
+	        animation-name:  animatedcloud ;
+  }
+
+@-webkit-keyframes animatedcloud{
+	0%{
+		margin-left: 100%;
+		opacity: 1;
+	}
+	100%{
+		margin-left: -100%;
+		opacity: 0;
+		
+	}
+}
+
+@keyframes animatedcloud{
+	0%{
+		margin-left: 100%;
+		opacity: 1;
+	}
+	100%{
+		margin-left: -100%;
+		opacity: 0;
+		
+	}
+}
+.cloud-1{
+	-webkit-animation: animatedcloud 10s linear infinite;
+	        animation: animatedcloud 10s linear infinite;
+	margin-bottom: 50px;
+}
+.cloud-2{
+	-webkit-animation: animatedcloud 20s linear infinite;
+	        animation: animatedcloud 20s linear infinite;
+	margin-bottom: 30px;
+	
+}
+.cloud-3{
+	-webkit-animation: animatedcloud 25s linear infinite;
+	        animation: animatedcloud 25s linear infinite;
+	margin-bottom: 40px;
+}
+.cloud-4{
+	-webkit-animation: animatedcloud 35s linear infinite;
+	        animation: animatedcloud 35s linear infinite;
+	margin-bottom: 40px;
+}
+.cloud-5{
+	-webkit-animation: animatedcloud 40s linear infinite;
+	        animation: animatedcloud 40s linear infinite;
+}
+/*=======================
+/*    COUNTER CSS          
+========================= */
+.counter-wrap span {
+	display: inline-block;
+}
+.countdown-wrap span {
+font-family: Helvetica;
+font-size: 48px;
+color: #121C25;
+letter-spacing: 0;
+text-align: center;
+line-height: 70px;
+padding: 0 20px;
+}
+.countdown-item span{
+font-family: Helvetica;
+font-size: 30px;
+color: #121C25;
+letter-spacing: 0;
+text-align: center;
+line-height: 70px;
+
+}
+.counter-wrap {
+	margin-bottom: 15px;
+}
+
+
+/* FEATURES-CSS HERE*/
+.theme-bg-color{
+	background: -webkit-gradient(linear, left top, left bottom, from(#D5E2FF), to(#FFFFFF));
+	background: -webkit-linear-gradient(top, #D5E2FF 0%, #FFFFFF 100%);
+	background: -o-linear-gradient(top, #D5E2FF 0%, #FFFFFF 100%);
+	background: linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+}
+.features-bg {
+	background: -webkit-gradient(linear, left top, left bottom, from(#D5E2FF), to(#FFFFFF));
+	background: -webkit-linear-gradient(top, #D5E2FF 0%, #FFFFFF 100%);
+	background: -o-linear-gradient(top, #D5E2FF 0%, #FFFFFF 100%);
+	background: linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+	padding-top: 50px;
+	padding-bottom: 156px;
+}
+/*===========================
+----  FESTURES-AREA-ONE 
+==============================*/
+.features-area-one{
+	position: relative;
+	z-index: 99;
+}
+.features-area-one::before{
+	content: "";
+	height: 100%;
+	width: 50%;
+	background-image: url(../img/feature/feature1.jpg);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center center;
+}
+.featuires-info {
+	padding-top: 85px;
+	padding-bottom: 45px;
+}
+.featuires-info h2 {
+	font-family: Helvetica;
+	font-size: 40px;
+	color: #121C25;
+	letter-spacing: 0;
+	line-height: 55px;
+	margin-bottom: 40px;
+}
+.main-feature p {
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	color: #121C25;
+	letter-spacing: 0;
+	line-height: 30px;
+	padding-right: 20px;
+}
+.box-btn {
+	font-family: SourceSansPro-Bold;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	background: #4378F8;
+	-webkit-box-shadow: 0 12px 17px -7px #4378F8;
+	box-shadow: 0 12px 17px -7px #4378F8;
+	padding: 12px 17px 15px 17px;
+	font-weight: 600;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+/*===========================
+----  FESTURES-AREA-TWO 
+==============================*/
+
+.features-area-two{
+	position: relative;
+	z-index: 99;
+	margin-top: 156px;
+}
+.features-area-two::before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 44%;
+	background-image: url(../img/feature/feature2.png);
+	left: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+/*===========================
+---- TEAM AREA CSS
+==============================*/
+.mb80{
+	margin-bottom: 80px;
+}
+.team-bg{
+	background: #F4F4F4;
+}
+.team-area{
+	padding: 156px 0;
+}
+.single-team {
+	position: relative;
+	z-index: 9;
+	overflow: hidden;
+}
+.team-hover {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 110px;
+}
+.team-img img {
+	width: 100%;
+}
+.team-hover {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 110px;
+	z-index: 0;
+}
+.team-info h4 {
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #121C25;
+	letter-spacing: 0;
+	margin-bottom: 3px;
+}
+.team-hover-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+  }
+  .team-hover-cell {
+	display: table-cell;
+	vertical-align: middle;
+  }
+  .team-info {
+	padding-left: 25px;
+}
+.team-info span{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #7B7B7B;
+	letter-spacing: 0;
+	font-weight: 400;
+}
+.team-hover-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+	bottom: -100%;
+	position: relative;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+.team-hover-table::before{
+	position: absolute;
+	content: '';
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	opacity: .9;
+}
+.single-team:hover .team-hover-table {
+	bottom: 0;
+}
+
